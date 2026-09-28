@@ -1,0 +1,7 @@
+sfx_api_url  = "https://api.us1.signalfx.com"
+splunk_url   = "splunk.example.com:8089"
+clusters     = ["prod-use1", "prod-usw2", "staging-use1"]
+notifications = ["Email,platform-oncall@example.com"] # or "PagerDuty,<credentialId>", "Slack,<credentialId>,#alerts"
+alert_email  = "platform-oncall@example.com"
+runbook_url  = "https://wiki.example.com/runbooks/karpenter"
+# Tokens: export TF_VAR_sfx_auth_token=... TF_VAR_splunk_auth_token=...
